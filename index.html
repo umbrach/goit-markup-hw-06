@@ -578,11 +578,54 @@
     <!--Модальне вікно-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close" data-modal-close>
-          <svg class="modal-icon" width="18px" height="18px">
-            <use href="./images/icons.svg#close-btn"></use>
-          </svg>
-        </button>
+        <div class="modal-form">
+          <div>
+            <button type="button" class="modal-close" data-modal-close>
+              <svg class="modal-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#close-btn"></use>
+              </svg>
+            </button>
+            <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <form autocomplete="off">
+              <label for="name">Ім'я</label>
+              <div class="form-field">
+                <input type="text" name="name" id="name" class="form-input" />
+                <svg class="field-icon" width="18px" height="18px">
+                  <use href="./images/icons.svg#person"></use>
+                </svg>
+              </div>
+              <label for="tel">Телефон</label>
+              <div class="form-field">
+                <input type="tel" name="tel" id="tel" class="form-input" />
+                <svg class="field-icon" width="18px" height="18px">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+              </div>
+              <label for="mail">Пошта</label>
+              <div class="form-field">
+                <input type="email" name="mail" id="mail" class="form-input" />
+                <svg class="field-icon" width="18px" height="18px">
+                  <use href="./images/icons.svg#email"></use>
+                </svg>
+              </div>
+              <label for="feedback">Коментар</label>
+              <div>
+                <textarea
+                  name="feedback"
+                  id="feedback"
+                  placeholder="Введіть текст"
+                  class="form-input comment"
+                ></textarea>
+              </div>
+
+              <label for="checkbox"></label>
+              <div class="checkbox-form">
+                <input type="checkbox" name="checkbox" id="checkbox" />
+              </div>
+              <button type="submit">Відправити</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 
