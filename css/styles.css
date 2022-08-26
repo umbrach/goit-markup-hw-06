@@ -911,6 +911,15 @@ label {
   outline-color: rgba(33, 33, 33, 0.2);
 
   transition: border 250ms var(--cubic-bezier);
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .field-input:focus {
@@ -934,9 +943,21 @@ label {
   font-size: 14px;
   color: var(--primary-text-color);
   resize: none;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .field-input.comment::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -956,8 +977,11 @@ label {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 
   color: var(--primary-white-color);
